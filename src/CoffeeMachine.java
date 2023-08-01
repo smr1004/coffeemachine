@@ -19,10 +19,10 @@ public class CoffeeMachine {
 옵션 4 선택 : => 4.종료
       " 커피 머신이 종료 되었습니다.종료 코드 0으로 완료된 프로세스 "
 */
-//    필드 : money; water; milk; coffeeBean; cup;
+//    필드 :  money;  water;  milk;   coffeeBean;  cup;
 //    생성자
-
-//  메소드
+//  메소드  : void 구매(){}; void 채우기(){}; void 가져가기(){}; void 작동(){};  void 재료 출력(){};
+//    실행 메소드
     public static void main(String[] args, int cancelNum) {
         System.out.println("실행");
 
@@ -126,11 +126,11 @@ public class CoffeeMachine {
             } else if (num == 4) {
                 System.out.println("커피 머신이 종료 되었습니다.종료 코드 0");
                 break;
-
             }
 
             }
         }
+
     }
 
 
