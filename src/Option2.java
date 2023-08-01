@@ -11,18 +11,46 @@ public class  Option2 extends CoffeeMachine {
     }
 }
         abstract class Option2 {
-            void 재료출력() {
+            private int amount;
+
+            public Ingredient(int amount) {
+                this.amount = amount;
+            }
+
+            public int getAmount() {
+                return amount;
             }
         }
         class Water extends Option2 {
+            public Water(int amount) {
+                super(amount);
+            }
         }
         class Milk extends Option2 {
+            public Milk(int amount) {
+                super(amount);
+            }
         }
         class CoffeeBean extends Option2 {
-        }
-        class Cup extends Option2 {
-        }
-        class Money extends Option2 {
+            public CoffeeBean(int amount) {
+                super(amount);
+            }
         }
 
+        class Cup extends Option2 {
+            public Cup(int amount) {
+                super(amount);
+            }
+        }
+        class Money extends Option2 {
+            public Money(int amount) {
+                super(amount);
+            }
+        }
+abstract class Coffee {
+    Water needWater;
+    Milk needMilk;
+    CoffeeBean needCoffeeBean;
+    Money price;
+}
 
