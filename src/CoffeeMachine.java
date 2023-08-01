@@ -87,6 +87,7 @@ public class CoffeeMachine {
                         boolean b = total <= 250;
                         System.out.println("물이 부족합니다. ");
                     } else if (delMenu.equals("우유 :")) {
+
                         boolean b = total <= 90;
 
                     } else if (delMenu.equals("원두 :")) {
