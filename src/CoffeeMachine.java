@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CoffeeMachine {
 //2023.8.1(화)
- /*   커피 머시 초기 상태 : H2O 400ml , 우유 540ml , 원두 120g , 컵 9개 , 돈 50000원
+ /*   커피 머신 초기 상태 : H2O 400ml , 우유 540ml , 원두 120g , 컵 9개 , 돈 50000원
     옵션  선택시 : 1.구매  2. 채우기 3. 가져가기 4.종료
 옵션 1.구매 선택 : => 커피 선택 : 1.에스프레소 4000원 ,2.라떼 7000원, 3.카푸치노 6000원
            => 돈 계산 , 재료 차감 (상속, 캡슐화)
@@ -31,10 +31,8 @@ public class CoffeeMachine {
 
         String[] orderList = new String[5];
 
-        //총 금액을 저장할 변수
         int total = 0;
 
-        //무한 반복을 해야함
         while (true) {
             System.out.println("1.구매 하기");
             System.out.println("2.재료 채우기");
