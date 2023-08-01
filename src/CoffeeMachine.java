@@ -72,19 +72,20 @@ public class CoffeeMachine {
                 System.out.println("커피 구매하였습니다.감사합니다." + menuName + " 가 준비되었습니다.맛있게 드세요!");
 
             } else if (num == 2) {
-                System.out.println("재료가 부족합니다. ");
+                System.out.println("재료가 부족합니다.");
                 for (int i = 0; i < count; i++) {
                     System.out.println(i + 1 + "." + orderList[i]);
                 }
 
                 if (!(1 > cancelNum || cancelNum > count)) {
                     String delMenu = orderList[cancelNum - 1];
-                    System.out.println(delMenu + " 재료 부족 ");
+                    System.out.println(delMenu + " 재료 삭제 ");
                     for (int i = cancelNum - 1; i < count; i++) {
                         orderList[i] = orderList[i + 1];
                     }
 
                     if (delMenu.equals("물 :")) {
+
                         boolean b = total <= 250;
                         System.out.println("물이 부족합니다. ");
                     } else if (delMenu.equals("우유 :")) {
