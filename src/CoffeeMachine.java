@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class CoffeeMachine {
-    //2023.8.1(화)
+//2023.8.1(화)
  /*   커피 머시 초기 상태 : H2O 400ml , 우유 540ml , 원두 120g , 컵 9개 , 돈 50000원
     옵션  선택시 : 1.구매  2. 채우기 3. 가져가기 4.종료
 옵션 1.구매 선택 : => 커피 선택 : 1.에스프레소 4000원 ,2.라떼 7000원, 3.카푸치노 6000원
@@ -16,24 +18,28 @@ public class CoffeeMachine {
                       :원두 372g (-32g후) ,컵 26개 (-2 개),돈 13000원(+)
 옵션 4 선택 : => 4.종료
       " 커피 머신이 종료 되었습니다.종료 코드 0으로 완료된 프로세스 "
-
 */
-    public static void main(String[] args) {
+//    필드 : money; water; milk; coffeeBean; cup;
+//    생성자
+
+//  메소드
+    public static void main(String[] args, int cancelNum) {
+        System.out.println("실행");
 
         Scanner sc = new Scanner(System.in);
         int count = 0;
 
-        String orderList[] = new String[5];
+        String[] orderList = new String[5];
 
         //총 금액을 저장할 변수
         int total = 0;
 
         //무한 반복을 해야함
         while (true) {
-            System.out.println("1. 구매하기");
-            System.out.println("2. 재료 채우기");
-            System.out.println("3. 가져오기");
-            System.out.println("4. 종료");
+            System.out.println("1.구매 하기");
+            System.out.println("2.재료 채우기");
+            System.out.println("3.가져오기");
+            System.out.println("4.종료");
             System.out.print("입력: ");
 
             int num = sc.nextInt();
@@ -66,28 +72,34 @@ public class CoffeeMachine {
                 System.out.println("커피 구매하였습니다.감사합니다." + menuName + " 가 준비되었습니다.맛있게 드세요!");
 
             } else if (num == 2) {
-                System.out.println("재료가 부족합니다.");
+                System.out.println("재료가 부족합니다. ");
                 for (int i = 0; i < count; i++) {
                     System.out.println(i + 1 + "." + orderList[i]);
                 }
 
-                if (1 <= cancelNum && cancelNum <= count) {
+                if (!(1 > cancelNum || cancelNum > count)) {
                     String delMenu = orderList[cancelNum - 1];
-                    System.out.println(delMenu + " 메뉴 삭제!");
+                    System.out.println(delMenu + " 재료 부족 ");
                     for (int i = cancelNum - 1; i < count; i++) {
                         orderList[i] = orderList[i + 1];
                     }
 
                     if (delMenu.equals("물 :")) {
-                        total -= 4000;
+                        boolean b = total <= 250;
+                        System.out.println("물이 부족합니다. ");
                     } else if (delMenu.equals("우유 :")) {
-                        total -= 7000;
+                        boolean b = total <= 90;
+
                     } else if (delMenu.equals("원두 :")) {
-                        total -= 6000;
+                        total -=16 ;
+                        boolean b = total <= 16;
+
                     } else if (delMenu.equals("컵 :")) {
-                        total -= 6000;
+                        total -=1 ;
+                        boolean b = total <= 1;
+
                     } else {
-                        System.out.println(" ");
+                        System.out.println("재료가 충분합니다.");
                         continue;
                     }
                     count--;
@@ -111,15 +123,16 @@ public class CoffeeMachine {
 
 
             } else if (num == 4) {
-                System.out.println("반복 종료!");
+                System.out.println("커피 머신이 종료 되었습니다.종료 코드 0");
                 break;
-            } else {
-                System.out.println("잘못 입력하셨습니다.");
+
+            }
+
             }
         }
     }
 
-}
+
 
 
 
