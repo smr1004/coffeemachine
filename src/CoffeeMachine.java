@@ -103,7 +103,6 @@ public class CoffeeMachine {
                         continue;
                     }
                     count--;
-
                 }
 
             } else if (num == 3) {
@@ -121,7 +120,6 @@ public class CoffeeMachine {
                 }
                 count = 0;
 
-
             } else if (num == 4) {
                 System.out.println("커피 머신이 종료 되었습니다.종료 코드 0");
                 break;
@@ -129,7 +127,6 @@ public class CoffeeMachine {
 
             }
         }
-
     }
 
 
