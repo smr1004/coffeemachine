@@ -62,20 +62,12 @@ private void makeCoffee(Coffee coffee){
 
 }
 
-
-
-
-
-
-
     private void take(){
         int 꺼낼돈=사용자입력받기("얼마를 꺼내시겠습니까?>");
         try{
             this.money.remove
         }
     }
-
-
 
 
 //실행 메소드
@@ -127,6 +119,5 @@ abstract class Coffee {
     CoffeeBean needCoffeeBean;
     Money price;
 }
-
 
 

@@ -1,4 +1,4 @@
-public class InsufficientException extends Exception {
+public class InsufficientException extends CoffeeMachine01 {
 
 
     public InsufficientException(String message) {
