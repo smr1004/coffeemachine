@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class CoffeeMachine {
 //2023.8.1(화)
@@ -23,7 +23,7 @@ public class CoffeeMachine {
 //    생성자
 //  메소드  : void 구매(){}; void 채우기(){}; void 가져가기(){}; void 작동(){};  void 재료 출력(){};
 //    실행 메소드
-    public static void main(String[] args, int cancelNum) {
+  /*  public static void main(String[] args, int cancelNum) {
         System.out.println("실행");
 
         Scanner sc = new Scanner(System.in);
@@ -129,7 +129,7 @@ public class CoffeeMachine {
         }
     }
 
-
+*/
 
 
 

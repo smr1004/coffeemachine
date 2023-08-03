@@ -88,15 +88,11 @@ public class CoffeeMachine01 {
 
     }
 
-    private void take() {
+    private void take() throws InsufficientException {
         int 꺼낼돈 = 사용자입력받기("얼마를 꺼내시겠어요? > ");
-        try {
-            this.money.removeAmount(꺼낼돈);
-            System.out.println(꺼낼돈 + "만큼 꺼냈습니다.");
-            재료출력();
-        } catch (InsufficientException e) {
-            System.out.println("있는 돈보다 더 꺼내시면 안되요.");
-        }
+        this.money.removeAmount(꺼낼돈);
+        System.out.println(꺼낼돈 + "만큼 꺼냈습니다.");
+        재료출력();
     }
 
     int 사용자입력받기(String message) {
@@ -143,7 +139,7 @@ abstract class Ingredient {
 
     void removeAmount(int amount) throws InsufficientException {
         if(this.amount - amount < 0) {
-            throw new InsufficientException(this.name +"이 부족합니다.");
+            throw new InsufficientException(this.name + "이 부족합니다.");
         }
         this.amount -= amount;
     }

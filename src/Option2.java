@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Option2 extends CoffeeMachine {
 // 2023.8.1(화)
@@ -120,4 +120,4 @@ abstract class Coffee {
     Money price;
 }
 
-
+*/
