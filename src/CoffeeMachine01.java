@@ -17,6 +17,7 @@
         class Cup extends Ingredient{ }
         class Money extends Ingredient{ }
 */
+//2023.8.3.(목)
 import java.util.Scanner;
 
 public class CoffeeMachine01 {
@@ -134,6 +135,10 @@ abstract class Ingredient {
 
     void addAmount(int amount) {
         this.amount += amount;
+    }
+
+    void removeAmount() throws InsufficientException {
+        removeAmount(0);
     }
 
     void removeAmount(int amount) throws InsufficientException {
