@@ -19,7 +19,7 @@ public class Option2 extends CoffeeMachine {
         this.coffeeBean = coffeeBean;
         this.cup = cup;
         this.money = money;
-        this.ingredients = new Ingredient[]{this.water,this.milk,this.coffeeBean,this.cup,this.money}
+        this.ingredients = new Ingredient[]{this.water,this.milk,this.coffeeBean,this.cup,this.money};
     }
     public Option2(int amount) {
         super();
@@ -47,6 +47,21 @@ case 3 -> take();
         System.out.println(message);
         int input
     };
+
+
+
+
+
+
+    private void take(){
+        int 꺼낼돈=사용자입력받기("얼마를 꺼내시겠습니까?>");
+        try{
+            this.money.remove
+        }
+    }
+
+
+
 
 //실행 메소드
     public static void main(String[] args) {
