@@ -48,6 +48,21 @@ case 3 -> take();
         int input
     };
 
+//
+    private void buy(){
+        int coffeeNumber = 사용자입력받기("어떤 커피를 사시겠어요?1.에스프레소 2. 라떼 3.카푸치노");
+        switch (coffeeNumber){
+            case 1 -> makeCoffee(new cappuccino());
+            case 2 -> break;
+            case 3 -> break;
+        }
+    }
+
+private void makeCoffee(Coffee coffee){
+
+}
+
+
 
 
 
