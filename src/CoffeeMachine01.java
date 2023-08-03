@@ -1,11 +1,11 @@
-
+//2023.8.1(화)
 //    메소드  : void 구매(){}; void 채우기(){}; void 가져가기(){}; void 작동(){};  void 재료 출력(){};
 
 //실행 메소드
   /*  public static void main(String[] args) {
 
 
-        CoffeeMachine01 coffeeMachine01 = new CoffeeMachine01(new Water(amount:400), new Milk(amount:540),
+        CoffeeMachine coffeeMachine01 = new CoffeeMachine(new Water(amount:400), new Milk(amount:540),
         new CoffeeBean(amount:120),new Cup(amount:9),new Money(amount:50000));
         coffeeMachine01.작동();
     }
@@ -18,7 +18,7 @@
         class CoffeeBean extends Ingredient{ }
         class Cup extends Ingredient{ }
         class Money extends Ingredient{ }
-*/
+
 public class CoffeeMachine01 {
     // 필요한 영단어
     // Coffee, Milk, Money, CoffeeBeans
@@ -62,10 +62,10 @@ public class CoffeeMachine01 {
 
     // 실행 메소드
     public static void main(String[] args) {
-        CoffeeMachine coffeeMachine = new CoffeeMachine(new Water(400),
+        CoffeeMachine01 coffeeMachine01 = new CoffeeMachine01(new Water(400),
                 new Milk(540), new CoffeeBean(120),
                 new Cup(9), new Money(50000));
-        coffeeMachine.작동();
+        coffeeMachine01.작동();
     }
 }
     abstract class Ingredient {
@@ -112,9 +112,7 @@ public class CoffeeMachine01 {
         Money price;
     }
 
-
-
-
+*/
 
 
 

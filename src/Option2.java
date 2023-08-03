@@ -12,7 +12,7 @@ public class Option2 extends CoffeeMachine {
     Cup cup;
     Money money;
     Ingredient ingredient;
-    // 생성자
+// 생성자
     public Option2 (Water water, Milk milk, CoffeeBean coffeeBean, Cup cup, Money money) {
         this.water = water;
         this.milk = milk;
@@ -24,11 +24,11 @@ public class Option2 extends CoffeeMachine {
     public Option2(int amount) {
         super();
     }
-    // 메소드
-    void 구매() {};
-    void 채우기() {};
-    void 가져가기() {};
-    void 작동() {
+// 메소드
+    void buy() {};
+    void fill() {};
+    void take() {};
+    void run() {
         System.out.println("커피머신이 작동했습니다!");
     재료출력();
         while (isRun) {

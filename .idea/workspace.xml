@@ -1,27 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cacf66a-706b-4bba-b6b9-723bcf2f064e" name="변경" comment="" />
+    <list default="true" id="5cacf66a-706b-4bba-b6b9-723bcf2f064e" name="변경" comment="최초로 커밋">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoffeeMachine01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeeMachine01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Option2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Option2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2TMOWai3ROSEb77OVjIcqaTaSO1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindow메시지.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -31,6 +56,134 @@
       <option name="presentableId" value="Default" />
       <updated>1690849547145</updated>
     </task>
+    <task id="LOCAL-00001" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690850416918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690850416918</updated>
+    </task>
+    <task id="LOCAL-00002" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690859197681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690859197681</updated>
+    </task>
+    <task id="LOCAL-00003" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690865198826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690865198826</updated>
+    </task>
+    <task id="LOCAL-00004" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690865821264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690865821264</updated>
+    </task>
+    <task id="LOCAL-00005" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690866539916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690866539916</updated>
+    </task>
+    <task id="LOCAL-00006" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690869597550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690869597550</updated>
+    </task>
+    <task id="LOCAL-00007" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690870327721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690870327721</updated>
+    </task>
+    <task id="LOCAL-00008" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690871020201</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690871020201</updated>
+    </task>
+    <task id="LOCAL-00009" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690873419100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690873419100</updated>
+    </task>
+    <task id="LOCAL-00010" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690874071993</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690874071993</updated>
+    </task>
+    <task id="LOCAL-00011" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1690875632622</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690875632622</updated>
+    </task>
+    <task id="LOCAL-00012" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1691023315866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691023315866</updated>
+    </task>
+    <task id="LOCAL-00013" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1691023675906</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691023675906</updated>
+    </task>
+    <task id="LOCAL-00014" summary="최초로 커밋">
+      <option name="closed" value="true" />
+      <created>1691023976435</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691023976435</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="최초로 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="최초로 커밋" />
   </component>
 </project>
